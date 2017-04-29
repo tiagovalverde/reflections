@@ -14,11 +14,18 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	Staging area allow us to define how many changed files should be commited at each commit. 
+	git diff --staged compares the file in Staging Area and most recent commit
+	git diff compares files between Working directory and Stagin Area
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	If the changes to be made are bug fixes, documentation or new features the branch should not change.
+	However, if you want to try something new on the project, create a new version of the project, for example add a new language creating a new brnach would be useful.
 
 How do the diagrams help you visualize the branch structure?
+	Drawing the diagrams of the branches and its commits allows us to track down the timeline of all the commits between the branches. Also it helps identify possible lost commits made.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
