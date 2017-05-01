@@ -46,4 +46,4 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    use git for a new project to be able to get experience and work with the version control.
+    Use git for a new project to be able to get experience and work with the version control.

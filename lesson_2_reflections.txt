@@ -1,36 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
 	
-	When I initialize a repository GIT will create the .git hidden file that
-	will contian all metadate of the repository. From that point on, all the commits 
-	made will be saved by GIT. I need to do it because its the only way to make GIT
-	create a repository and recognize the commits made.
+	When I initialize a repository, GIT will create the .git hidden folder that
+	will contian all the metadata of the repository. From that point on, all the commits made will be saved by GIT. I need to do it because its the only way to make GIT to create a repository and recognize the commits made.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area allow us to define which files to be commited in one commit.
-	It is useful in defining you first commits in a repository if you started a project 
-	before creating the repository. If you apply a commit directly all the files from your wd will be uploaded to the repo.
+	The staging area allow us to define which files to be commited in one commit. It is useful in defining you first commits in a repository if you started a project before creating the repository. If you apply a commit directly all the files from your the working directory will be uploaded to the repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-	Staging area allow us to define how many changed files should be commited at each commit. 
-	git diff --staged compares the file in Staging Area and most recent commit
-	git diff compares files between Working directory and Stagin Area
+
+	Staging Area allow us to define how many changed files should be commited at each commit. 
+	git diff --staged compares the file in Staging Area and most recent commit.
+	git diff compares files between Working directory and Staging Area
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-	If the changes to be made are bug fixes, documentation or new features the branch should not change.
-	However, if you want to try something new on the project, create a new version of the project, for example add a new language creating a new brnach would be useful.
+	
+	If the changes to be made are bug fixes, documentation or new features in the branch should not change. However, if you want to try something new on the project, create a new version of the project, for example add a new language creating a new branch would be useful.
 
 How do the diagrams help you visualize the branch structure?
+	
 	Drawing the diagrams of the branches and its commits allows us to track down the timeline of all the commits between the branches. Also it helps identify possible lost commits made.
-
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-	It creates a new MASTER branch pointing to two parents brnaches/commits. Merge the commits of the two branches and saves both commits in timestamp
+
+	It creates a new MASTER branch pointing to two parents branches/commits. Merge the commits of the two branches and saves both commits in timestamp.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-	automatic merging allows to merge the branches instatanisally but cant handle conflicts if same file was modififed in different branches. This is where manual merges comes in handy. The project file that has a conflict as to be checked by the programs to see where the conflict happens and the best way to fix it.
+
+	Automatic merging allows to merge the branches instantaneously but cant handle conflicts if same file was modififed in different branches. This is where manual merge comes in handy. The project file that has a conflict as to be checked by the programers to see where the conflict happens and the best way to fix it.
