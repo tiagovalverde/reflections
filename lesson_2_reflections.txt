@@ -33,3 +33,4 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	automatic merging allows to merge the branches instatanisally but cant handle conflicts if same file was modififed in different branches. This is where manual merges comes in handy. The project file that has a conflict as to be checked by the programs to see where the conflict happens and the best way to fix it.
